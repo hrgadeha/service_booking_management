@@ -1,0 +1,33 @@
+{
+ "attach_print": 1,
+ "channel": "Email",
+ "condition": "doc.status == \"Approved\" and doc.email_sent == 0",
+ "creation": "2025-06-23 23:22:30.751178",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Service Booking",
+ "enabled": 1,
+ "event": "Save",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<p>Hi {{ doc.customer_name }},</p>\n\n<p>Your service booking has been confirmed. Please find the attached booking receipt.</p>\n\n<ul>\n  <li><strong>Booking ID:</strong> {{ doc.name }}</li>\n  <li><strong>Service Type:</strong> {{ doc.service_type }}</li>\n  <li><strong>Date & Time:</strong> {{ frappe.utils.format_datetime(doc.preferred_date_time) }}</li>\n  <li><strong>Status:</strong> {{ doc.status }}</li>\n</ul>\n\n<p>Thank you for booking with us!</p>\n\n<p>Regards,<br>\nThe Wellness Team</p>",
+ "message_type": "Markdown",
+ "modified": "2025-06-24 12:33:30.748675",
+ "modified_by": "Administrator",
+ "module": "Service Booking Management",
+ "name": "Booking Confirmation",
+ "owner": "Administrator",
+ "print_format": "Booking Confirmation",
+ "property_value": "1",
+ "recipients": [
+  {
+   "receiver_by_document_field": "customer_email"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "set_property_after_alert": "email_sent",
+ "subject": "Your Service Booking is Confirmed \u2013 {{ doc.name }}",
+ "value_changed": "status"
+}
