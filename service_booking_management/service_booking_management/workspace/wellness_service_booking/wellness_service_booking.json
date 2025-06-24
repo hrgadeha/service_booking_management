@@ -1,0 +1,92 @@
+{
+ "charts": [
+  {
+   "chart_name": "Service Type Based Today's Bookings",
+   "label": "Service Type Based Today's Bookings"
+  }
+ ],
+ "content": "[{\"id\":\"FVVfR3siCq\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Wellness Service Booking</span>\",\"col\":12}},{\"id\":\"z3hpEZo_j5\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Today's Total Service Booking\",\"col\":3}},{\"id\":\"0FlcEmFRJd\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Today's Requested Service\",\"col\":3}},{\"id\":\"meq-rpPeJV\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Today's Approved Service\",\"col\":3}},{\"id\":\"1rkXXYr_S_\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Today's Completed Service\",\"col\":3}},{\"id\":\"KOzZLm6PGY\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"QR6CI2aAmh\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Service Type Based Today's Bookings\",\"col\":12}},{\"id\":\"y2pGwsJQnQ\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"9EFWGA3pda\",\"type\":\"card\",\"data\":{\"card_name\":\"Master & Record\",\"col\":4}}]",
+ "creation": "2025-06-23 22:52:32.525349",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "list-alt",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Wellness Service Booking",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Master & Record",
+   "link_count": 3,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Service Booking",
+   "link_count": 0,
+   "link_to": "Service Booking",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Service Type",
+   "link_count": 0,
+   "link_to": "Service Type",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "All Service Bookings",
+   "link_count": 0,
+   "link_to": "All Service Bookings",
+   "link_type": "Report",
+   "onboard": 0,
+   "report_ref_doctype": "Service Booking",
+   "type": "Link"
+  }
+ ],
+ "modified": "2025-06-24 16:27:04.503060",
+ "modified_by": "Administrator",
+ "module": "Service Booking Management",
+ "name": "Wellness Service Booking",
+ "number_cards": [
+  {
+   "label": "Today's Approved Service",
+   "number_card_name": "Today's Approved Service Booking"
+  },
+  {
+   "label": "Today's Requested Service",
+   "number_card_name": "Today's Requested Service"
+  },
+  {
+   "label": "Today's Total Service Booking",
+   "number_card_name": "Today's Total Service Booking"
+  },
+  {
+   "label": "Today's Completed Service",
+   "number_card_name": "Today's Completed Service"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 28.0,
+ "shortcuts": [],
+ "title": "Wellness Service Booking"
+}
