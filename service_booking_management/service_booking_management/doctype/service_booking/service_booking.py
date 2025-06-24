@@ -50,7 +50,7 @@ class ServiceBooking(Document):
 
 
 @frappe.whitelist(allow_guest=False)
-def send_booking_data(booking_id):
+def send_booking_data(booking_id = None):
 	if not booking_id:
 		return {
 			"http_status_code": 400,
